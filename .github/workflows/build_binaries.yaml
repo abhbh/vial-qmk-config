@@ -11,7 +11,7 @@ jobs:
     uses: qmk/.github/.github/workflows/qmk_userspace_build.yml@main
     with:
       qmk_repo: abhbh/vial-qmk
-      qmk_ref: crkbd_qmk
+      qmk_ref: abhbh
 
   publish:
     name: 'QMK Userspace Publish'
